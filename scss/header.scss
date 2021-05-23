@@ -5,7 +5,6 @@
     background-position: center center;
     background-color:rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
-    height: 100vh;
 }
 
 .header_nav {
@@ -19,7 +18,7 @@
 }
 
 .header_menu {
-    width: 85%;
+    width: 80%;
 
     ul {
         display: flex;
@@ -29,6 +28,7 @@
     li {
         margin: 0 20px;
         color: $color1;
+        font-size: 18px;
         font-weight: 700;
 
         &:first-child {
@@ -46,7 +46,7 @@
 }
 
 .header_content {
-    margin-top: 60px;
+    padding: 60px 0 153px;
     color: $color1;
     h3 {
         font-size: 18px;
@@ -75,7 +75,16 @@
     }
 
     a {
-        margin-bottom: 20px;
+        display: inline-block;
         font-size: 12px;
     }
+}
+
+.mobile_btn {
+    display: none;
+}
+
+.mobile_menu {
+    display: none;
+    visibility: hidden;
 }

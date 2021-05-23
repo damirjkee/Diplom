@@ -1,22 +1,17 @@
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
+/* Error: Undefined variable.
+ *    ,
+ * 86 |             background-color: $color1;
+ *    |                               ^^^^^^^
+ *    '
+ *   scss\adaptive.scss 86:31  root stylesheet */
 
-/*# sourceMappingURL=adaptive.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 86 \2502              background-color: $color1;\d\a    \2502                                ^^^^^^^\a    \2575 \a   scss\\adaptive.scss 86:31  root stylesheet";
+}

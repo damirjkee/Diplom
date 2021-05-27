@@ -28,6 +28,12 @@ li {
     font-weight: 700;
 }
 
+.section_line {
+    margin: 10px 0;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    // color: rgba(0, 0, 0, 0.1);
+}
+
 $font-family: 'Open Sans', sans-serif;
 
 ::selection {background: $color2; color:#fff;}
@@ -35,4 +41,5 @@ $font-family: 'Open Sans', sans-serif;
 ::-webkit-selection {background: $color2; color:#fff;}
 
 @import 'header';
+@import 'abouts_us';
 @import 'adaptive';

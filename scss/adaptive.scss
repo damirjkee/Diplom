@@ -56,6 +56,15 @@
 
     .header_content {
         padding: 120px 0 153px;
+        
+        h1 {
+            font-size: 42px;
+            line-height: 55px;
+        }
+
+        p {
+            font-size: 14px;
+        }
     }
 
     .header_nav.active {
@@ -136,6 +145,27 @@
         top: 50%;
         transform: translate(-50%, -50%) rotate(-45deg);
     }
+
+    .about_us_spa {
+        padding: 20px;
+
+        h2 {
+            font-size: 16px;
+        }
+
+        h3 {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+
+        a {
+            margin-top: 15px;
+        }
+    }
 }
 
 @media(max-width: 425px) {
@@ -159,6 +189,32 @@
             font-size: 14px;
         }
     }
+
+    .abouts_us_item {
+        width: 100%;
+
+        &:first-child {
+            order: 2;
+        }
+
+        &:nth-child(2) {
+            order: 1;
+        }
+
+        &:nth-child(3) {
+            order: 3;
+        }
+
+        &:nth-child(4) {
+            order: 4;
+        }
+    }
+
+    .about_us_spa {
+        h3 {
+            font-size: 20px;
+        }
+    }
 }
 
 @media(max-width: 320px) {
@@ -174,6 +230,16 @@
         
         p {
             font-size: 13px;
+        }
+    }
+
+    .about_us__wraper {
+        .prev {
+            padding: 12px;
+        }
+
+        .next {
+            padding: 12px;
         }
     }
 }

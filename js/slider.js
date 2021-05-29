@@ -5,7 +5,6 @@ const slidesWrapper = document.querySelector('.about_us__wraper');
 const slidesField = document.querySelector('.abouts_us_inner');
 const width = window.getComputedStyle(slidesWrapper).width;
 
-// let slideIndex = 1;
 let offset = 0;
 
 slidesField.style.width = 100 * slides.length + '%';

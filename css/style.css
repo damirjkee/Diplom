@@ -233,6 +233,9 @@ li {
   display: block;
   width: 100%;
 }
+.our_services_item:hover .our_services_description {
+  background-color: #9DBA04;
+}
 
 .our_services_description {
   padding: 45px;
@@ -281,6 +284,18 @@ li {
   }
   .header_content p {
     font-size: 16px;
+  }
+
+  .our_services_text h3 {
+    font-size: 36px;
+  }
+
+  .line {
+    width: 10%;
+  }
+
+  .our_services_item {
+    width: calc(100% / 3);
   }
 }
 @media (max-width: 768px) {
@@ -402,6 +417,17 @@ li {
   .about_us_spa a {
     margin-top: 15px;
   }
+
+  .our_services_text h3 {
+    font-size: 30px;
+  }
+
+  .our_services_item {
+    width: calc(100% / 2);
+  }
+  .our_services_item .our_services_description p {
+    height: 120px;
+  }
 }
 @media (max-width: 425px) {
   .container {
@@ -441,6 +467,21 @@ li {
   .about_us_spa h3 {
     font-size: 20px;
   }
+
+  .our_services_text h3 {
+    font-size: 28px;
+  }
+
+  .line {
+    width: 20%;
+  }
+
+  .our_services_item {
+    width: 100%;
+  }
+  .our_services_item .our_services_description p {
+    height: 100px;
+  }
 }
 @media (max-width: 320px) {
   .container {
@@ -460,6 +501,10 @@ li {
   }
   .about_us__wraper .next {
     padding: 12px;
+  }
+
+  .our_services_text h3 {
+    font-size: 25px;
   }
 }
 

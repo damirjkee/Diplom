@@ -37,6 +37,10 @@
         display: block;
         width: 100%;
     }
+
+    &:hover .our_services_description {
+        background-color: $color2;
+    }
 }
 
 .our_services_description {

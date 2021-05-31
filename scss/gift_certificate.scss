@@ -1,0 +1,53 @@
+.gift_certificate {
+    background-image: linear-gradient(225deg,#3266a2,#98cfbf);
+    background-repeat: repeat-x;
+}
+
+.gift_certificate_wrapper {
+    padding: 40px 0;
+    display: flex;
+
+    img {
+        padding: 0 15px;
+    }
+}
+
+.gift_certificate_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+
+    h4 {
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: left;
+        color: $color1;
+        margin: 0;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+        color: $color1;
+    }
+}
+
+.gift_certificate_btn {
+    display: flex;
+    align-items: center;
+
+    a {
+        padding: 8px 20px;
+        background-color: #18ba9b;
+        font-size: 15px;
+        font-weight: 700;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #22e3be;
+        }
+    }
+}

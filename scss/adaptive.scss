@@ -199,7 +199,22 @@
         padding: 60px 0;
     }
 
-    
+    .gift_certificate_wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gift_certificate_description {
+        margin: 30px 0 10px;
+
+        h4 {
+            text-align: center;
+        }
+        
+        p {
+            text-align: center;
+        }
+    }
 }
 
 @media(max-width: 425px) {
@@ -284,6 +299,16 @@
 
     .gallery_item:nth-child(2) {
         margin: 0;
+    }
+
+    .gift_certificate_description {
+        h4 {
+            font-size: 23px;
+        }
+
+        p {
+            font-size: 15px;
+        }
     }
 }
 

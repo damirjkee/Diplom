@@ -66,6 +66,7 @@
         background-color: rgba(0,0,0,0.5) !important;
         height: 10%;
         transition: all 0.3s;
+        z-index: 100000;
     }
 
     .header_content {
@@ -194,6 +195,10 @@
         }
     }
 
+    .spa_video_description {
+        padding: 60px 0;
+    }
+
     
 }
 
@@ -263,6 +268,22 @@
                 height: 100px;
             }
         }
+    }
+
+    .gallery_wrapper {
+        flex-direction: column;
+    }
+
+    .gallery_item_1, .gallery_item_2, .gallery_item_3, .gallery_item_4, .gallery_item_5 {
+        margin-top: 15px;
+    }
+
+    .gallery_item_1 {
+        margin: 0;
+    }
+
+    .gallery_item:nth-child(2) {
+        margin: 0;
     }
 }
 

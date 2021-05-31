@@ -215,6 +215,20 @@
             text-align: center;
         }
     }
+
+    .reviews {
+        img {
+            width: 50%
+        }
+    }
+
+    .reviews_description {
+        margin-left: 15px;
+
+        h4 {
+            margin: 0;
+        }
+    }
 }
 
 @media(max-width: 425px) {
@@ -309,6 +323,19 @@
         p {
             font-size: 15px;
         }
+    }
+
+    .reviews {
+        flex-wrap: wrap;
+        
+        img {
+            width: 100%;
+            order: 2;
+        }
+    }
+
+    .reviews_description {
+        order: 1;
     }
 }
 

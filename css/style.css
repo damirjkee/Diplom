@@ -445,6 +445,25 @@ li {
   background-color: #22e3be;
 }
 
+.reviews {
+  padding: 50px 0;
+  display: flex;
+}
+
+.reviews_description {
+  margin-left: 30px;
+}
+.reviews_description h4 {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.reviews_description p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #777777;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 950px;
@@ -633,6 +652,17 @@ li {
   .gift_certificate_description p {
     text-align: center;
   }
+
+  .reviews img {
+    width: 50%;
+  }
+
+  .reviews_description {
+    margin-left: 15px;
+  }
+  .reviews_description h4 {
+    margin: 0;
+  }
 }
 @media (max-width: 425px) {
   .container {
@@ -709,6 +739,18 @@ li {
   }
   .gift_certificate_description p {
     font-size: 15px;
+  }
+
+  .reviews {
+    flex-wrap: wrap;
+  }
+  .reviews img {
+    width: 100%;
+    order: 2;
+  }
+
+  .reviews_description {
+    order: 1;
   }
 }
 @media (max-width: 320px) {

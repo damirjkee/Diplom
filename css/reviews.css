@@ -1,0 +1,20 @@
+.reviews {
+  padding: 50px 0;
+  display: flex;
+}
+
+.reviews_description {
+  margin-left: 30px;
+}
+.reviews_description h4 {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.reviews_description p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #777777;
+}
+
+/*# sourceMappingURL=reviews.css.map */

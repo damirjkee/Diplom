@@ -229,6 +229,25 @@
             margin: 0;
         }
     }
+
+    .feedback_contacts {
+        width: calc(100% / 2 - 6%);
+    }
+
+    .feedback_contacts_inf_item {
+        width: 100%;
+    }
+    
+    .feedback_border-left {
+        border-left: none;
+    }
+
+    .feedback_border-bottom:nth-child(3) {
+        border-bottom: solid 1px #EEEEEE;
+    }
+    .feedback_border-bottom:nth-child(4) {
+        border-bottom: solid 1px #EEEEEE;
+    }
 }
 
 @media(max-width: 425px) {
@@ -337,6 +356,24 @@
     .reviews_description {
         order: 1;
     }
+
+
+    .feedback_form {
+        width: 100%;
+    }
+
+    .feedback_contacts {
+        width: 100%;
+
+        & > p {
+            margin: 30px 0;
+        }
+    }
+
+    .feedback_contacts_inf {
+        margin-top: 20px;
+
+    }
 }
 
 @media(max-width: 320px) {
@@ -368,6 +405,19 @@
     .our_services_text {
         h3 {
             font-size: 25px;
+        }
+    }
+
+
+    .feedback_form {
+        padding: 30px 15px;
+
+        h4 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 14px;
         }
     }
 

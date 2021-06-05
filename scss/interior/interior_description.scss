@@ -1,0 +1,23 @@
+.interior_description {
+    background-image: linear-gradient(225deg,#3266a2,#98cfbf);
+
+    .interior_padding {
+        padding: 20px 0;
+    }
+
+    h3 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+        color: $color1;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .line {
+        width: 7%;
+        height: 10px;
+        margin: 30px auto 0;
+        background-color: #29d6e6;
+    }
+}

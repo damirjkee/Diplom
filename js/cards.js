@@ -23,7 +23,7 @@ class Services {
 }
 
 new Services(
-    "img/cards/cards1.jpg",
+    "img/main/cards/cards1.jpg",
     "SPA",
     'Спа',
     'Окунитесь в мир роскошных, уникальных церемоний красоты по телу и лицу, эксклюзивных Spa-программ, выполненных лучшими мастерами из Таиланда, Индонезии и России.',
@@ -31,7 +31,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards2.jpg",
+    "img/main/cards/cards2.jpg",
     "Sauna",
     'Сауна',
     'Место, куда не стыдно прийти с семьей, компанией или просто вдвоем. Пространство, где русские банные традиции сочетаются с модными, дизайнерскими интерьерами.',
@@ -39,7 +39,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards3.jpg",
+    "img/main/cards/cards3.jpg",
     "Hammam",
     'Хаммам',
     'Хаммам – это баня для эстетов. В нашем комплексе "Enjoy", турецкий хаммам входит в состав сауны. Две культуры парения находятся в одном помещении, что дает насладиться всеми прелестями по принятию СПА процедур и парению.',
@@ -47,7 +47,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards4.jpg",
+    "img/main/cards/cards4.jpg",
     "Salt cave",
     'Соляная пещера',
     'Наша соляная пещера – совершенная имитация природной соляной пещеры с присущим ей микроклиматом, целебный воздух которого оказывает комплексное лечебное воздействие на организм человека.',
@@ -55,7 +55,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards5.jpg",
+    "img/main/cards/cards5.jpg",
     "Manicure",
     'Ногтевой сервис',
     'Только обращаясь к настоящим мастерам, вам можно быть уверенным, что процесс будет исполнен качественно и, что важно, безопасно.',
@@ -63,7 +63,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards6.jpg",
+    "img/main/cards/cards6.jpg",
     "Cosmetology",
     'Косметология',
     'Косметология, чистка лица, эпиляци, пилинг лица, фотоомоложение кожи лица, массаж лица и другие услуги вы найдете в нашем салоне.',
@@ -71,7 +71,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards7.jpg",
+    "img/main/cards/cards7.jpg",
     "Make-up",
     'Визаж',
     'Свадебные образы, макияж, face art и creative make up- все для Вас',
@@ -79,7 +79,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards8.jpg",
+    "img/main/cards/cards8.jpg",
     "Yoga",
     'Йога',
     'Индивидуальная практика йоги в Москве',
@@ -87,7 +87,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards9.jpg",
+    "img/main/cards/cards9.jpg",
     "Spa certificate",
     'Сертификат в Спа',
     'Подарите любимым спа сертификат! Они останутся в восторге от такого подарка. Различные наборы сертификатов для любого человека.',
@@ -95,7 +95,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards10.jpg",
+    "img/main/cards/cards10.jpg",
     "Spa for two",
     'Спа для двоих',
     'Спа программы, массажи и уходы вместе со второй половинкой в самом зеленом спа салоне Москвы. Удивите свою вторую половинку походом в спа.',
@@ -103,7 +103,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards11.jpg",
+    "img/main/cards/cards11.jpg",
     "Bachelorette party in spa",
     'Девичник в спа',
     'Удивите подруг лучшими спа программами и массажами в самом зеленом спа салоне Москвы. Спа девичник для лучших подруг.',
@@ -111,7 +111,7 @@ new Services(
 ).render();
 
 new Services(
-    "img/cards/cards12.jpg",
+    "img/main/cards/cards12.jpg",
     "Spa programs",
     'Спа программы',
     'Попробуйте наши авторские спа программы для восстановления души и тела. Спа программы в хаммаме и сауне с последующим массажем.',

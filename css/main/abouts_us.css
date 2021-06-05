@@ -1,9 +1,9 @@
 /* Error: Undefined variable.
  *    ,
- * 26 |         color: $color1;
+ * 23 |         color: $color2;
  *    |                ^^^^^^^
  *    '
- *   scss\gift_certificate.scss 26:16  root stylesheet */
+ *   scss\main\abouts_us.scss 23:16  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 26 \2502          color: $color1;\d\a    \2502                 ^^^^^^^\a    \2575 \a   scss\\gift_certificate.scss 26:16  root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 23 \2502          color: $color2;\d\a    \2502                 ^^^^^^^\a    \2575 \a   scss\\main\\abouts_us.scss 23:16  root stylesheet";
 }

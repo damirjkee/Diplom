@@ -46,7 +46,7 @@ li {
 }
 
 .header {
-  background-image: url("../img/header/main-header.jpg");
+  background-image: url("../../img/main/header/main-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -468,6 +468,7 @@ li {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 50px auto;
 }
 
 .feedback_form {

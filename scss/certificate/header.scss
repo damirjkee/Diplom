@@ -1,0 +1,86 @@
+.header {
+    background-image: url('../../img/certificate/main-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.header_logo img {
+    max-width: 180px;
+}
+
+.header_menu {
+    width: 80%;
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    li {
+        margin: 0 20px;
+        color: $color1;
+        font-size: 18px;
+        font-weight: 700;
+
+        &:first-child {
+            margin: 0 20px 0 0;
+        }
+
+        &:last-child {
+            margin: 0 0 0 20px;
+        }
+
+        & a:hover {
+            color: $color2;
+        }
+    }
+}
+
+.header_content {
+    padding: 60px 0 153px;
+    color: $color1;
+    
+    h3 {
+        font-size: 18px;
+        line-height: 21px;
+        
+        &:first-child {
+            display: inline-block;
+            text-transform: uppercase;
+            padding: 10px;
+            background-color: $bgcolor;
+        }
+    }
+
+    h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    p {
+        font-size: 18px;
+        color: rgba(255,255,255,0.8);
+    }
+}
+
+.mobile_btn {
+    display: none;
+}
+
+.mobile_menu {
+    display: none;
+    visibility: hidden;
+}

@@ -86,3 +86,38 @@
         width: calc(100% / 4);
     }
 }
+
+.certificate_descr {
+    padding: 20px 0;
+
+    h6 {
+        font-size: 12px;
+        font-weight: 800;
+        color: $color2;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 52px;
+        margin: 20px 0;
+    }
+
+    .line {
+        width: 70px;
+        height: 10px;
+        background-color: $color2;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        color: $color3;
+
+        &:nth-child(10) {
+            font-weight: 700;
+        }
+    }
+}

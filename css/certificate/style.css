@@ -203,6 +203,36 @@ li {
   width: calc(100% / 4);
 }
 
+.certificate_descr {
+  padding: 20px 0;
+}
+.certificate_descr h6 {
+  font-size: 12px;
+  font-weight: 800;
+  color: #9DBA04;
+  margin: 0;
+}
+.certificate_descr h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  margin: 20px 0;
+}
+.certificate_descr .line {
+  width: 70px;
+  height: 10px;
+  background-color: #9DBA04;
+  margin-bottom: 30px;
+}
+.certificate_descr p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+}
+.certificate_descr p:nth-child(10) {
+  font-weight: 700;
+}
+
 .footer {
   background-color: #111111;
 }
@@ -478,6 +508,14 @@ li {
 
   .design_photo_wrapper img {
     width: 100%;
+  }
+
+  .certificate_descr {
+    padding: 0 15px;
+  }
+  .certificate_descr h3 {
+    font-size: 32px;
+    line-height: 40px;
   }
 
   .footer_inf {

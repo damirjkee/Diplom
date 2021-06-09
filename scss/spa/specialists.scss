@@ -1,0 +1,53 @@
+
+
+.specialists_item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.specialists_img {
+    width: 41%;
+
+    img {
+        width: 100%;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+}
+
+.specialist_descr {
+    width: 56%;
+}
+
+.specialist_masseur {
+    display: flex;
+    border-bottom: 2px solid $color2;
+
+    h5 {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 19px;
+        color: $color3;
+        margin-left: 15px;
+    }
+
+    i {
+        font-size: 23px;
+        color: $color2;
+        align-self: center;
+    }
+}
+
+.specialist_masseur_text {
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        color: $color3;
+    }
+}

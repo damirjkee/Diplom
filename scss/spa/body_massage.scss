@@ -1,0 +1,93 @@
+.body_massage {
+    background-color: #F7F7F7;
+    padding: 30px 0;
+}
+
+.body_massage_title {
+    text-align: center;
+
+    h2 {
+        display: inline-block;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 35px;
+        padding-bottom: 8px;
+        border-bottom: 5px solid $color2;
+    }
+
+    h3 {
+        font-size: 15px;
+        letter-spacing: 3px;
+        line-height: 24px;
+        color: $color3;
+    }
+}
+
+.body_massage_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.body_massage_item {
+    width: calc(100% / 3 - 3%);
+}
+
+.body_massage_img {
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.body_massage_descr {
+    background-color: #1d1d1d !important;
+    text-align: center;
+    padding: 40px 0;
+
+    h5 {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: $color1;
+        margin: 0;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+        color: #777777;
+        letter-spacing: 3px;
+    }
+    
+    .body_massage_descr_padding{
+        padding: 0 40px;
+    }
+
+    h4 {
+        font-size: 26px;
+        font-weight: 700;
+        color: $color1;
+        letter-spacing: 5px;
+    }
+
+    h6 {
+        font-size: 12px;
+        font-weight: 700;
+        color: rgba(255,255,255,0.5);
+        background-color: #222;
+        padding: 10px 30px;
+    }
+
+    a {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: $color1;
+        padding: 8px 20px;
+        border: 1px solid #FFFFFF;
+        margin-top: 20px;
+    }
+}

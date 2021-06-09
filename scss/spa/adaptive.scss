@@ -1,0 +1,277 @@
+@media(max-width: 1200px) {
+    .container {
+        max-width: 950px;
+    }
+
+    .header_menu {
+        li {
+            font-size: 14px;
+            
+            &:first-child {
+                margin: 0 20px 0 0;
+            }
+
+            &:last-child {
+                margin: 0 0 0 20px;
+            }
+        }
+    }
+
+    .header_content {
+        h1 {
+            font-size: 55px;
+            line-height: 63px;
+        }
+        h3 {
+            font-size: 15px;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header_nav.container {
+        max-width: none;
+    }
+
+    .header_nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 15px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: rgba(0,0,0,0.5) !important;
+        height: 10%;
+        transition: all 0.3s;
+        z-index: 100000;
+    }
+
+    .header_content {
+        padding: 120px 0 153px;
+        
+        h1 {
+            font-size: 42px;
+            line-height: 55px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .header_nav.active {
+        height: 75%;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .mobile_btn {
+        display: flex;
+    }
+
+    .mobile_btn {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        overflow: hidden;
+
+        span {
+            width: 30px;
+            height: 2px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: $color1;
+            transition: all 0.5s;
+            
+            &:nth-child(2) {
+                top: calc(50% - 7px);
+            }
+
+            &:nth-child(3) {
+                top: calc(50% + 7px);
+            }
+        }
+    }
+
+    .mobile_menu {
+        position: relative;
+        display: block;
+        width: 72%;
+        transition: transform 0.5s;
+
+        ul {
+            margin: 10px 0 0;
+            padding: 0;
+
+            li {
+                padding: 5px 0;
+                
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .mobile_menu.active {
+        visibility: visible;
+    }
+
+    .mobile_btn.active span:first-of-type {
+        transform: translateX(100%);
+    }
+    
+    .mobile_btn.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    
+    .mobile_btn.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    
+    .spa_video_description {
+        padding: 60px 0;
+    }
+
+    .body_massage_item {
+        width: calc(100% / 2 - 2%);
+    }
+
+}
+
+@media(max-width: 425px) {
+    .container {
+        max-width: 390px;
+    }
+
+    .header_content {
+        padding: 100px 0 153px;
+
+        h1 {
+            font-size: 31px;
+            line-height: 50px;
+        }
+
+        h3 {
+            font-size: 12px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .spa_photo_item {
+        width: 100%;
+
+        &:nth-child(2) {
+            margin-top: 10px;
+        }
+
+        &:nth-child(3) {
+            margin-top: 10px;
+        }
+
+        &:nth-child(4) {
+            margin-top: 10px;
+        }
+    }
+
+    .our_services {
+        padding: 30px 15px;
+
+        h5 {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 29px;
+        }
+    }
+
+    .our_services_descr {
+        width: 100%;
+    }
+
+    .our_services_img {
+        width: 100%;
+    }
+
+    .body_massage_item {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .specialists_img {
+        width: 100%;
+    }
+
+    .specialist_descr {
+        width: 100%;
+    }
+
+    .footer_inf {
+        flex-wrap: wrap;
+    }
+
+    .footer_contacts_item {
+        p {
+            margin-left: 12px;
+        }
+    }
+
+    .footer_contacts {
+        width: 100%;
+    }
+
+    .footer_spa {
+        width: 100%;
+    }
+
+    .footer_beauty {
+        width: 100%;
+    }
+
+    .footer_extra {
+        width: 100%;
+    }
+}
+
+@media(max-width: 320px) {
+    .container {
+        max-width: 300px;
+    }
+
+    .header_content {
+        h1 {
+            font-size: 26px;
+            line-height: 40px;
+        }
+        
+        p {
+            font-size: 13px;
+        }
+    }
+
+    .our_services {
+        h4 {
+            font-size: 26px;
+        }
+    }
+
+}

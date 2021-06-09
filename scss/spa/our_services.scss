@@ -1,0 +1,59 @@
+.our_services {
+    text-align: center;
+    padding: 30px 0;
+
+    h5 {
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 31px;
+        color: $color2;
+        margin: 0;
+    }
+
+    h4 {
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 43px;
+        margin: 20px 0;
+    }
+
+    .line {
+        width: 70px;
+        height: 10px;
+        background-color: $color2;
+        margin: 0 auto;
+    }
+}
+
+.our_services_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.our_services_descr {
+    width: 46%;
+    text-align: left;
+
+    h6 {
+        font-size: 26px;
+        font-weight: 700;
+        color: #18BA9B;
+        margin: 0;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        color: #777777;
+    }
+}
+
+.our_services_img {
+    width: 50%;
+
+    img {
+        width: 100%;
+    }
+}

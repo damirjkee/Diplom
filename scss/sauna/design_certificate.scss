@@ -1,0 +1,81 @@
+.design_certificate {
+    padding: 80px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.design_certificate_photo {
+    width: 66%;
+}
+
+.design_certificate_wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        width: calc(100% / 2 - 3%);
+        &:first-child {
+            margin: 0 7px 7px 0;
+        }
+        &:nth-child(2) {
+            margin: 0 0 7px 7px;
+        }
+        &:nth-child(3) {
+            margin: 7px 7px 0 0;
+        }
+        &:last-child {
+            margin: 7px 0 0 7px;
+        }
+    }
+}
+
+.design_certificate_descr {
+    width: 30%;
+
+    h6 {
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: $color2;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 52px;
+        margin: 20px 0;
+    }
+
+    .line {
+        width: 70px;
+        height: 10px;
+        background-color: $color2;
+        margin: 15px 0 30px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+        color: $color3;
+
+        span {
+            font-weight: 700;
+        }
+    }
+}
+
+.design_photo {
+    padding: 50px 0 30px;
+}
+
+.design_photo_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        width: calc(100% / 4);
+    }
+}
+

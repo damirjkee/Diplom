@@ -125,6 +125,33 @@ li {
   display: none;
 }
 
+.backcall_btn {
+  position: fixed;
+  right: 40px;
+  bottom: 60px;
+}
+.backcall_btn a {
+  padding: 20px;
+  background-color: #9DBA04;
+  border-radius: 50%;
+}
+.backcall_btn i {
+  font-size: 24px;
+  transform: rotate(-35deg);
+}
+
+.booking_btn {
+  position: fixed;
+  left: 40px;
+  bottom: 20px;
+  background-color: #30dcdc;
+  padding: 20px;
+  border-radius: 50%;
+}
+.booking_btn a {
+  line-height: 25px;
+}
+
 ::selection {
   background: #9DBA04;
   color: #fff;

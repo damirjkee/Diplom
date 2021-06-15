@@ -1,6 +1,11 @@
 const modal = document.querySelector('.modal_callback');
 const modalContent = document.querySelector('.modal_callback_content');
 const modalCloseBtn = document.querySelector('.modal_close');
+const modalTriggerOne = document.querySelectorAll('[data-modal-callback]');
+
+modalTriggerOne.forEach(btn => {
+    btn.addEventListener('click', openModal);
+});
 
 function closeModal() {
     modal.classList.add('hide');
@@ -33,9 +38,9 @@ const modalTimerId = setTimeout(openModal, 7000);
 const modalMassage = document.querySelector('.modal_booking');
 const modalMassageContent = document.querySelector('.modal_booking_content');
 const modalMassageCloseBtn = document.querySelector('.modal_massage_close');
-const modalTrigger = document.querySelectorAll('[data-modal');
+const modalTriggerTwo = document.querySelectorAll('[data-modal]');
 
-modalTrigger.forEach(btn => {
+modalTriggerTwo.forEach(btn => {
     btn.addEventListener('click', openMassageModal);
 });
 

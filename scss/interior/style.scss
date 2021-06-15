@@ -73,6 +73,36 @@ li {
         display: none;
     }
 }
+.backcall_btn {
+    position: fixed;
+    right: 40px;
+    bottom: 60px;
+
+    a {
+        padding: 20px;
+        background-color: $color2;
+        border-radius: 50%;
+    }
+
+    i {
+        font-size: 24px;
+        transform: rotate(-35deg);
+    }
+}
+
+.booking_btn {
+    position: fixed;
+    left: 40px;
+    bottom: 20px;
+    background-color: rgb(48, 220, 220);
+    padding: 20px;
+    border-radius: 50%;
+
+
+    a {
+        line-height: 25px;
+    }
+}
 
 $font-family: 'Open Sans', sans-serif;
 

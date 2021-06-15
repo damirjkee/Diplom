@@ -24,7 +24,7 @@ class BodyMassage {
                 <p>
                     ${this.description}
                 </p>
-                <a href="#">Заказать ${this.rent}</a>
+                <a data-modal>Заказать ${this.rent}</a>
             </div>
         `;
         this.parent.append(element);

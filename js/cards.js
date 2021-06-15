@@ -15,7 +15,7 @@ class Services {
             <div class="our_services_description">
                 <h3>${this.title}</h3>
                 <p>${this.description}</p>
-                <a href="#" class="record_btn">Подробнее</a>
+                <a data-modal class="record_btn">Записаться</a>
             </div>
         `;
         this.parent.append(element);

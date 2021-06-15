@@ -23,7 +23,7 @@ class BodyMassage {
                 <h4>${this.price}</h4>
             </div>
             <h6>ПРОДОЛЖИТЕЛЬНОСТЬ: ${this.time} МИНУТ</h6>
-            <a href="#">ЗАПИСАТЬСЯ</a>
+            <a data-modal>ЗАПИСАТЬСЯ</a>
         </div>
         `;
         this.parent.append(element);

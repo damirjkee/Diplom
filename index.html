@@ -56,7 +56,7 @@
                     <h3>Самый зеленый спа салон Алматы</h3>
                     <h1>Enjoy luxury spa & <br>Beauty studio</h1>
                     <p>Окунитесь в мир роскошных, уникальных церемоний красоты по телу и лицу, эксклюзивных Spa-программ, выполненных лучшими спа терапевтами из Казахстана</p>
-                    <a href="#" class="record_btn">Записаться на массаж</a>
+                    <a data-modal class="record_btn">Записаться на массаж</a>
                 </div>
             </div>
     </header>
@@ -72,7 +72,7 @@
                 <h2>Спа салон Enjoy Luxury Spa & Beauty Studio</h2>
                 <h3>ИДЕАЛЬНОЕ МЕСТО ДЛЯ РЕЛАКСАЦИИ</h3>
                 <p>Забудьте об утомительных перелетах, о языковых барьерах и акклиматизации, позвольте себе отпуск, не покидая черты нашего комплекса! Звуки спокойной музыки, витание ароматов экзотических эфирных масел, мерцание свечей и удивительные ритуалы красоты и здоровья унесут Вас от городской суеты в райский уголок, где все для Вас и ради Вас.</p>
-                <a href="#" class="record_btn">Записаться</a>
+                <a data-modal class="record_btn">Записаться</a>
             </div>
         </div>
         <div class="abouts_us_item">
@@ -160,7 +160,7 @@
         <div class="spa_video_description container">
             <h3>Спа салон Enjoy</h3>
             <p>Именно здесь Вы проведете свой идеальный день, сполна насладившись душой и телом каждой минутой, отданной в распоряжение Enjoy Spa</p>
-            <a href="#">Забронировать массаж</a>
+            <a data-modal>Забронировать массаж</a>
         </div>
     </section>
 
@@ -182,7 +182,7 @@
         <div class="reviews_description">
             <h4>Признание качества</h4>
             <p>
-                Только что открытый Спа салон Enjoy Luxury Spa & Beauty Studio притягивает всеобщее внимание в номинации топ-10 лучших спа салонов Москвы в премиум сегменте.
+                Только что открытый Спа салон Enjoy Luxury Spa & Beauty Studio притягивает всеобщее внимание в номинации топ-10 лучших спа салонов Алматы в премиум сегменте.
                 <br><br>
                 Спасибо за доверие Luxury Lifestyle Awards!
                 <br><br>
@@ -198,7 +198,7 @@
     <section class="feedback container">
         <div class="feedback_form">
             <h4>Записаться на массаж</h4>
-            <p>Забронируйте массаж в самом зелёном Spa салоне Москвы. Массаж от дипломированных мастеров с медицинским образованием</p>
+            <p>Забронируйте массаж в самом зелёном Spa салоне Алматы. Массаж от дипломированных мастеров с медицинским образованием</p>
             <form action="">
                 <input type="text" name="form_name" placeholder="Имя">
                 <input type="text" name="form_tel" placeholder="Телефон">
@@ -252,7 +252,7 @@
                 <p>Забудьте об утомительных перелетах, о языковых барьерах и акклиматизации, позвольте себе отпуск, не покидая черты нашего комплекса!</p>
                 <div class="footer_contacts_item">
                     <i class="fas fa-home"></i>
-                    <p>Адрес: г.Москва, проспект Вернадского д.94, к.3, ЖК "Mirax Park"</p>
+                    <p>Адрес: г.Алматы, проспект Вернадского д.94, к.3, ЖК "Mirax Park"</p>
                 </div>
                 <div class="footer_contacts_item">
                     <i class="fas fa-phone-alt"></i>
@@ -294,8 +294,73 @@
         </div>
     </footer>
 
+    <div class="modal_callback hide">
+        <div class="modal_callback_content">
+            <div class="feedback_form">
+                <div class="modal_close">X</div>
+                <h4>Записаться на массаж</h4>
+                <p>Забронируйте массаж в самом зелёном Spa салоне Алматы. Массаж от дипломированных мастеров с медицинским образованием</p>
+                <form action="#">
+                    <input type="text" name="form_name" placeholder="Имя">
+                    <input type="text" name="form_tel" placeholder="Телефон">
+                    <hr>
+                    <button class="feedback_btn">Заказать обратный звонок</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal_booking hide">
+        <div class="modal_booking_content">
+            <div class="feedback_form">
+                <div class="modal_massage_close">X</div>
+                <h4>Записаться на массаж</h4>
+                <p>Забронируйте массаж в самом зелёном Spa салоне Алматы. Массаж от дипломированных мастеров с медицинским образованием</p>
+                <form action="#">
+                    <input type="text" name="form_name" placeholder="Имя">
+                    <input type="text" name="form_tel" placeholder="Телефон">
+                    <input type="date" name="form_date" class="form_date" min="2021-06-15">
+                    <select name="form_time" id="" required>
+                        <option value="">Выбрать время</option>
+                        <option value="1">9:00 - 10:00</option>
+                        <option value="2">10:00 - 11:00</option>
+                        <option value="3">11:00 - 12:00</option>
+                        <option value="4">12:00 - 13:00</option>
+                        <option value="5">13:00 - 14:00</option>
+                        <option value="6">14:00 - 15:00</option>
+                        <option value="7">15:00 - 16:00</option>
+                        <option value="8">16:00 - 17:00</option>
+                        <option value="9">17:00 - 18:00</option>
+                        <option value="10">18:00 - 19:00</option>
+                        <option value="11">19:00 - 20:00</option>
+                        <option value="12">20:00 - 21:00</option>
+                        <option value="13">21:00 - 22:00</option>
+                    </select>
+                    <select name="form_massage" id="" class="form_massage" required>
+                        <option value="">Выбрать вид массажа</option>
+                        <option value="1">Тайский массаж</option>
+                        <option value="2">Oil массаж</option>
+                        <option value="3">Арома Oil массаж</option>
+                        <option value="4">Арома Oil массаж на Sultane De Saba</option>
+                        <option value="5">Массаж горячим маслом</option>
+                        <option value="6">Медовый массаж</option>
+                        <option value="7">Массаж травянными мешочками</option>
+                        <option value="8">Антицеллюлитный массаж</option>
+                        <option value="9">Слим массаж</option>
+                        <option value="10">Моделирующий массаж</option>
+                        <option value="11">Фитнес массаж</option>
+                        <option value="12">Лимфодренажный</option>
+                    </select>
+                    <hr>
+                    <button class="feedback_btn">Записаться</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <script src="js/gamburger.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/cards.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>

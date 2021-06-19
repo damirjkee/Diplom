@@ -145,14 +145,62 @@
     <div class="modal_callback hide">
         <div class="modal_callback_content">
             <div class="feedback_form">
-                <div class="modal_close">X</div>
+                <div data-modal-close class="modal_close">X</div>
                 <h4>Записаться на массаж</h4>
                 <p>Забронируйте массаж в самом зелёном Spa салоне Алматы. Массаж от дипломированных мастеров с медицинским образованием</p>
                 <form action="#">
-                    <input type="text" name="form_name" placeholder="Имя">
-                    <input type="text" name="form_tel" placeholder="Телефон">
+                    <input required type="text" name="name" placeholder="Имя">
+                    <input required type="tel" name="phone" placeholder="Телефон">
                     <hr>
                     <button class="feedback_btn">Заказать обратный звонок</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal_booking hide">
+        <div class="modal_booking_content">
+            <div class="feedback_form">
+                <div data-close class="modal_massage_close">X</div>
+                <h4>Записаться на массаж</h4>
+                <p>Забронируйте массаж в самом зелёном Spa салоне Алматы. Массаж от дипломированных мастеров с медицинским образованием</p>
+                <form action="#">
+                    <input required type="text" name="name" placeholder="Имя">
+                    <input required type="tel" name="phone" placeholder="Телефон">
+                    <input required type="date" name="visit" class="form_date" min="2021-06-17">
+                    <select name="hour" required>
+                        <option value="">Выбрать время</option>
+                        <option value="9">9:00 - 10:00</option>
+                        <option value="10">10:00 - 11:00</option>
+                        <option value="11">11:00 - 12:00</option>
+                        <option value="12">12:00 - 13:00</option>
+                        <option value="13">13:00 - 14:00</option>
+                        <option value="14">14:00 - 15:00</option>
+                        <option value="15">15:00 - 16:00</option>
+                        <option value="16">16:00 - 17:00</option>
+                        <option value="17">17:00 - 18:00</option>
+                        <option value="18">18:00 - 19:00</option>
+                        <option value="19">19:00 - 20:00</option>
+                        <option value="20">20:00 - 21:00</option>
+                        <option value="21">21:00 - 22:00</option>
+                    </select>
+                    <select name="massageType" class="form_massage" required>
+                        <option value="">Выбрать вид массажа</option>
+                        <option value="Тайский массаж">Тайский массаж</option>
+                        <option value="Oil массаж">Oil массаж</option>
+                        <option value="Арома Oil массаж">Арома Oil массаж</option>
+                        <option value="Арома Oil массаж на Sultane De Saba">Арома Oil массаж на Sultane De Saba</option>
+                        <option value="Массаж горячим маслом">Массаж горячим маслом</option>
+                        <option value="Медовый массаж">Медовый массаж</option>
+                        <option value="Массаж травянными мешочками">Массаж травянными мешочками</option>
+                        <option value="Антицеллюлитный массаж">Антицеллюлитный массаж</option>
+                        <option value="Слим массаж">Слим массаж</option>
+                        <option value="Моделирующий массаж">Моделирующий массаж</option>
+                        <option value="Фитнес массаж">Фитнес массаж</option>
+                        <option value="Лимфодренажный">Лимфодренажный</option>
+                    </select>
+                    <hr>
+                    <button class="feedback_btn">Записаться</button>
                 </form>
             </div>
         </div>

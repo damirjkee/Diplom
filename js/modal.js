@@ -75,7 +75,7 @@ const formsTwo = document.querySelectorAll('.modal_booking form');
 const message = {
     loading: '../img/form/spinner.svg',
     success: 'Спасибо! Скоро мы с вами свяжемся',
-    failure: 'Что-то пошло не так'
+    failure: 'Ошибка! Повторите запрос'
 };
 
 

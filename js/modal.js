@@ -29,7 +29,7 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-const modalTimerId = setTimeout(openModal, 500);
+const modalTimerId = setTimeout(openModal, 7000);
 
 const modalMassage = document.querySelector('.modal_booking');
 const modalMassageCloseBtn = document.querySelector('.modal_massage_close');

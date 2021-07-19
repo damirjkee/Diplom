@@ -71,6 +71,7 @@ document.addEventListener('keydown', (e) => {
 
 const forms = document.querySelectorAll('.modal_callback form');
 const formsTwo = document.querySelectorAll('.modal_booking form');
+const formsThree = document.querySelectorAll('.feedback form');
 
 const message = {
     loading: '../img/form/spinner.svg',
@@ -219,3 +220,71 @@ function postDataBooking(form, url) {
     }
 }
 
+// Comments
+
+formsThree.forEach(item => {
+    postDataComments(item, 'http://localhost:8081/comments');
+});
+
+function postDataComments(form, url) {
+    form.addEventListener('submit', (e) =>{
+        e.preventDefault();
+
+        let statusMessage = document.createElement('img');
+        statusMessage.src = message.loading;
+        statusMessage.style.cssText = `
+            display: block;
+            margin: 0 auto;
+        `;
+        form.insertAdjacentElement('afterend', statusMessage);
+
+        const formData = new FormData(form);
+
+        const object = {};
+        formData.forEach(function(value, key) {
+            object[key] = value;
+        });
+
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(object)
+            }).then(data => {
+                console.log(data);
+                showThanksModal(message.success);
+                statusMessage.remove();
+            }).catch(() => {
+                showThanksModal(message.failure);
+            }).finally(()=> {
+                form.reset();
+            });
+    });
+
+    function showThanksModal(message) { 
+        const prevModalDialog = document.querySelector('.modal_callback_content');
+
+        prevModalDialog.classList.add('hide');
+        openModal();
+
+        const thanksModal = document.createElement('div');
+        thanksModal.classList.add('modal_callback');
+        thanksModal.innerHTML = `
+            <div data-modal-close' class="modal_callback_content">
+                <div class="feedback_form">
+                    <div class="modal_close">X</div>
+                    <h4>${message}</h4>
+                </div>
+            </div>
+        `;
+
+        document.querySelector('.modal_callback').append(thanksModal);
+        setTimeout(()=> {
+            thanksModal.remove();
+            prevModalDialog.classList.add('show');
+            prevModalDialog.classList.remove('hide');
+            closeModal();
+        }, 2000);
+    }
+}
